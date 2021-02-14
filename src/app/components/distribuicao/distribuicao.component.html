@@ -1,0 +1,35 @@
+<div class="main">
+  <span>
+    <h1>Distribuição por troféus</h1>
+    <p>Como funciona?</p>
+  </span>
+  <form>
+    <div id="form-diamond">
+      <label>Total de diamantes: 💎</label>
+      <input id="diamond" type="number" (change)="somarDiamantes()" [(ngModel)]="diamantes.total" [ngModelOptions]="{standalone: true}" class="size12">
+    </div>
+    <div id="div-total-trofeus">
+      <label>Total de trofeus: 🏆</label>
+        <input  id="input-total" disabled [(ngModel)]="trofeus.total" [ngModelOptions]="{standalone: true}" class="size12">
+    </div>
+    <div id="div-cidadao">
+      <span *ngFor="let cidadao of cidadaos" class="span-cidadaos">
+        <div class="cidadao-id">
+          <label>Morador {{cidadao.id}} </label>
+        </div>
+        <div class="item-cidadao">
+          <span class="item-trofeu">🏆</span>
+          <input type="number" [(ngModel)]="cidadao.trofeus" (change)="somarDiamantes()" [ngModelOptions]="{standalone: true}" class="input-cidadao">
+        </div>
+        <div class="item-premiacao">
+          <label>Premiação: 💎</label>
+          <div class="item-valor-premio">
+            <span class="span-valor-premio">
+              {{cidadao.valor_premio}}
+            </span>
+          </div>
+        </div>
+      </span>
+    </div>
+  </form>
+</div>

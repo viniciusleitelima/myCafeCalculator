@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "calculatorMyCafe"
+    }
+  },
+  "defaultProject": "calculatorMyCafe",
+  "cli": {
+    "analytics": false
+  }
 }

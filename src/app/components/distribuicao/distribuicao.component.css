@@ -1,0 +1,113 @@
+.main{
+  background-color: burlywood;
+  padding: 10px;
+  position: relative;
+  top:35px;
+}
+ #form-diamond{
+   display: inline;
+ }
+
+ #diamond{
+  height: 20px;
+  position: relative;
+  border: 1px solid black;
+  margin-left: 3px;
+  width: 50px;
+  border-radius: 6px;
+  text-align: center;
+ }
+ .size12{
+   font-size: 12px;
+ }
+
+ .input-cidadao{
+  top: 3px;
+  height: 20px;
+  position: relative;
+  border: 1px solid black;
+  margin-left: 3px;
+  width: 50px;
+  border-radius: 6px;
+  text-align: center;
+ }
+
+ .cidadao-id{
+  width: 88px;
+ }
+
+ .item-trofeu{
+  position: relative;
+  top: 5px;
+ }
+
+ .mat-form-field {
+  width: 20%;
+  display: block;
+  position: relative;
+  text-align: left;
+}
+
+.span-cidadaos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item-cidadao{
+  margin-bottom: 12px;
+}
+#div-cidadao{
+  position: relative;
+  top: 15px;
+  display: inline;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.item-premiacao{
+  position: relative;
+  left: 60px;
+  display: inline-flex;
+}
+
+.item-valor-premio{
+  margin-left: 12px;
+  width: 42px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  text-align: center;
+  height: 20px;
+}
+
+.span-valor-premio{
+  position: relative;
+  top: 1.145px;
+}
+
+#div-total-trofeus{
+  display: inline;
+  margin-left: 12px;
+}
+
+#input-total{
+  margin-left: 6px;
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 6px;
+  height: 20px;
+  text-align: center;
+  background: white;
+  cursor: not-allowed;
+}

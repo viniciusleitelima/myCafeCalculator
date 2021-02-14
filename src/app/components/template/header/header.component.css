@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+}
+
+.header > .title{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subtitle{
+  flex: 1 1 auto;
+  position: relative;
+  left: 5vw;
+}
+
+.img{
+  position: relative;
+}

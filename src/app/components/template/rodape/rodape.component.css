@@ -1,0 +1,49 @@
+.rodape{
+  position: relative;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  background: chocolate;
+  padding: 10px 0px 10px 10px;
+  margin-top: 15px;
+}
+
+.rodape > h1 {
+  margin:0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.icon{
+  top: 4px;
+  position: relative;
+  color: red;
+}
