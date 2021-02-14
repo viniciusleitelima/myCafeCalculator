@@ -126,11 +126,12 @@ export class DistribuicaoComponent implements OnInit {
     this.trofeus.total = 0;
     for(let i=0; i < this.cidadaos.length;i++){
       this.trofeus.total = this.trofeus.total + this.cidadaos[i].trofeus;
-
     }
     for(let i=0; i < this.cidadaos.length;i++){
       if(this.cidadaos[i].trofeus){
         this.cidadaos[i].valor_premio = Math.round((this.cidadaos[i].trofeus/this.trofeus.total) * this.diamantes.total).toString();
+      }else{
+        this.cidadaos[i].valor_premio = null;
       }
     }
   }
