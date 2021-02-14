@@ -101,6 +101,25 @@ input[type=number] {
   margin-left: 12px;
 }
 
+@media screen and (max-width:500px){
+  #div-total-trofeus{
+    display: block;
+    position: relative;
+    top: 6px;
+    left:-11px;
+  }
+
+  #div-cidadao{
+    position: relative;
+    top: 30px;
+    display: inline;
+  }
+
+  .item-premiacao {
+    left: 10px;
+  }
+}
+
 #input-total{
   margin-left: 6px;
   width: 60px;
