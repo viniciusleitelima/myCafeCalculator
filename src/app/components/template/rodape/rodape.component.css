@@ -14,32 +14,32 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: gainsboro;
 }
 
 
 /* unvisited link */
 a:link {
   text-decoration: none;
-  color: black;
+  color: gainsboro;
 }
 
 /* visited link */
 a:visited {
   text-decoration: none;
-  color: black;
+  color: gainsboro;
 }
 
 /* mouse over link */
 a:hover {
   text-decoration: none;
-  color: black;
+  color: gainsboro;
 }
 
 /* selected link */
 a:active {
   text-decoration: none;
-  color: black;
+  color: gainsboro;
 }
 
 .icon{
