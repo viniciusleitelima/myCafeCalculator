@@ -78,7 +78,13 @@ input[type=number] {
 
 .item-premiacao{
   position: relative;
-  left: 60px;
+  left: 40px;
+  display: inline-flex;
+}
+
+.item-rubi{
+  position: relative;
+  left: 80px;
   display: inline-flex;
 }
 
@@ -96,14 +102,38 @@ input[type=number] {
   position: relative;
   top: 1.145px;
 }
+.item-valor-rubi{
+  margin-left: 12px;
+  width: 42px;
+  background-color: none;
+  border: 1px solid black;
+  border-radius: 6px;
+  text-align: center;
+  height: 20px;
+}
+
+.span-valor-rubi{
+  position: relative;
+  top: 1.145px;
+}
 
 #div-total-trofeus{
+  display: inline;
+  margin-left: 12px;
+}
+#div-total-rubis{
   display: inline;
   margin-left: 12px;
 }
 
 @media screen and (max-width:500px){
   #div-total-trofeus{
+    display: block;
+    position: relative;
+    top: 6px;
+    left:-11px;
+  }
+  #div-total-rubis{
     display: block;
     position: relative;
     top: 6px;
@@ -131,4 +161,23 @@ input[type=number] {
   background: none;
   cursor: not-allowed;
   color:black;
+}
+
+#input-rubis{
+  height: 20px;
+  position: relative;
+  border: 1px solid black;
+  margin-left: 3px;
+  width: 50px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+
+#img-rubi{
+  position: relative;
+  top: 5px;
+}
+.icon-rubi{
+  width: 15px;
 }

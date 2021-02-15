@@ -13,6 +13,10 @@
       <label>Total de trofeus: 🏆</label>
         <input  id="input-total" disabled [(ngModel)]="trofeus.total" [ngModelOptions]="{standalone: true}" class="size12">
     </div>
+    <div id="div-total-rubis">
+      <label>Total de rubis: <img  class="icon-rubi" id="img-rubi" src="../../../assets/images/rubi.png"></label>
+        <input  id="input-rubis" [(ngModel)]="rubis.total" [ngModelOptions]="{standalone: true}" class="size12">
+    </div>
     <div id="div-cidadao">
       <span *ngFor="let cidadao of cidadaos" class="span-cidadaos">
         <div class="cidadao-id">
@@ -27,6 +31,14 @@
           <div class="item-valor-premio">
             <span class="span-valor-premio">
               {{cidadao.valor_premio}}
+            </span>
+          </div>
+        </div>
+        <div class="item-rubi">
+          <label>Rubis: <img class="icon-rubi" id="img-rubi" src="../../../assets/images/rubi.png"></label>
+          <div class="item-valor-rubi">
+            <span class="span-valor-rubi">
+              {{cidadao.valor_rubis}}
             </span>
           </div>
         </div>
