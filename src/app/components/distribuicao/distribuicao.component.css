@@ -3,6 +3,7 @@
   padding: 10px;
   position: relative;
   top:35px;
+  height: auto;
 }
  #form-diamond{
    display: inline;
@@ -84,7 +85,7 @@ input[type=number] {
 .item-valor-premio{
   margin-left: 12px;
   width: 42px;
-  background-color: white;
+  background-color: none;
   border: 1px solid black;
   border-radius: 6px;
   text-align: center;
@@ -127,6 +128,7 @@ input[type=number] {
   border-radius: 6px;
   height: 20px;
   text-align: center;
-  background: white;
+  background: none;
   cursor: not-allowed;
+  color:black;
 }
